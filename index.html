@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-4xl text-center">Calculator</h1>
+    </header>
+    <main>
+
+        <div class="grid grid-cols-4 w-96 text-center p-1 mx-auto my-8 bg-black text-3xl">
+            <input type="text" class="input col-span-4 border-2 border-black p-5 bg-black text-white text-3xl">
+            <button class="button p-4 border-black m-0.5 bg-red-500">C</button>
+            <button class="button p-4 border-black m-0.5 bg-amber-500">%</button>
+            <button class="button p-4 border-black m-0.5 bg-amber-500">=</button>
+            <button class="button p-4 border-black m-0.5 bg-amber-500">/</button>
+
+            <button class="button p-4 border-black m-0.5 bg-gray-300">7</button>
+            <button class="button p-4 border-black m-0.5 bg-gray-300">8</button>
+            <button class="button p-4 border-black m-0.5 bg-gray-300">9</button>
+            <button class="button p-4 border-black m-0.5 bg-amber-500">*</button>
+
+            <button class="button p-4 border-black m-0.5 bg-gray-300">4</button>
+            <button class="button p-4 border-black m-0.5 bg-gray-300">5</button>
+            <button class="button p-4 border-black m-0.5 bg-gray-300">6</button>
+            <button class="button p-4 border-black m-0.5 bg-amber-500">-</button>
+
+            <button class="button p-4 border-black m-0.5 bg-gray-300">1</button>
+            <button class="button p-4 border-black m-0.5 bg-gray-300">2</button>
+            <button class="button p-4 border-black m-0.5 bg-gray-300">3</button>
+            <button class="button p-4 border-black m-0.5 bg-amber-500">+</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
